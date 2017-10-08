@@ -1,0 +1,24 @@
+{
+  "name": "roomba980-slack",
+  "version": "1.0.0",
+  "description": "Posts Roomba 980 status updates to your favorite Slack channel.",
+  "main": "index.js",
+  "scripts": {
+    "getpassword": "node ./node_modules/dorita980/bin/getpassword.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "roomba",
+    "slack",
+    "dorita",
+    "webhook"
+  ],
+  "author": "Joakim Hedlund <contact@joakimhedlund.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dorita980": "^3.0.11",
+    "dotenv": "^4.0.0",
+    "slack-webhook": "^1.0.0"
+  }
+}
